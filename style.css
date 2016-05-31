@@ -1,0 +1,142 @@
+html, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+body{
+background-color:orange;
+}
+h1 {
+  color: #000000;
+  margin: 0 0 15px 0;
+}
+h2 {
+  color: #000000;
+  margin:0;
+}
+h3 {
+  color: #333333;
+  margin: 20px 0 5px 0;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 2px;
+}
+h4 {
+  color: #666666;
+  margin: 10px 0 10px 0;
+}
+p {
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+a {
+  text-decoration:none;
+  color: #FFFFFF;
+}
+
+ul {
+  padding: 0 0 0 30px;
+}
+li {
+  margin-bottom: 5px;
+}
+body {
+  padding: 0;
+}
+ol {
+  padding: 0 0 0 20px;
+}
+.nav {
+  background-color:#333333;
+  padding:20 0px;
+  width:100%;
+}
+.nav li {
+  display: inline;
+  padding-right: 20px;
+  margin:0 20px;
+}
+.nav a{
+  font-size:60px;
+}
+.nav li a:hover {
+color:#FFFF00;
+text-shadow: 1px 1px 8px #000000;
+}
+.nav img{
+height:50px;
+width:50px;
+}
+.header {
+  padding: 0px;
+  
+}
+.header slider img{
+width:100%;
+}
+
+.content-section {
+  padding: 40px;
+  width: 90%;
+  text-align:center;
+
+}
+
+
+.content-section h2{
+text-align:center;
+}
+.header h1, ul{
+text-align:center;
+}
+.slider{
+height:auto;
+width:100%;
+margin-bottom:0px;
+}
+.slider img{
+ display:block;
+ width:100%;
+}
+.cont img{
+height:300px;
+width:50%;
+float:left;
+margin: 0 20px 20px 0;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+input {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+input[type=submit]{
+width:165px;
+}
+input[type=checkbox]{
+display:inline;
+}
+input[type=text]{
+width:445px;
+}
+label[for=on-tour]{
+display:inline;
+}
+
+.paper-airplain{
+float:right; 
+}
+.half img{
+width:50%;
+height:255px;
+text-align:left;
+}
+
